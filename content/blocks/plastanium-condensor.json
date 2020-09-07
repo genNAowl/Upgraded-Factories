@@ -1,5 +1,5 @@
 {
-	"name": "Plastanium Condensor",
+	"name": "Plastanium Condenser",
 	"type": "GenericCrafter",
 	"description": "Condenses Plastanium from Titanium, Organic Compounds, and Oil",
 	"hasItems": true,

@@ -34,7 +34,7 @@
 		"items": {
 			"items": [
 				{ "item": "titanium", "amount": 15 },
-				{ "item": "sporePod", "amount": 2 },
+				{ "item": "sporepod", "amount": 2 },
 			]
 		},
 		"liquid": {

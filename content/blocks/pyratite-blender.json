@@ -1,0 +1,46 @@
+{
+	"name": "Pyratite Blender",
+	"type": "GenericSmelter",
+	"description": "An advanced pyratite mixer that uses oil to help blend the pyratite",
+	"drawer": "DrawBlock",
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"itemCapacity": 30,
+	"liquidCapacity": 100,
+	"solid": true,
+	"health": -1, //automatically calculated
+	"size": 3,
+	"activeSound": "none",
+	"activeSoundVolume": 0.5,
+	"idleSound": "none",
+	"idleSoundVolume": 0.5,
+	"requirements": [
+		{ "item": "lead", "amount": 150 },
+		{ "item": "graphite", "amount": 120 },
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "plastanium", "amount": 40 },
+	],
+	"category": "crafting",
+	"research": "pyratite-mixer",
+	"outputItem": {"item": "pyratite", "amount": 5},
+	"craftTime": 80,
+	"craftEffect": "none",
+	"updateEffect": "none",
+	"updateEffectChance": 0.04,
+	"flameColor": "1C00ff00", //a variable only changed for pyratite mixers
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 8 },
+				{ "item": "sand", "amount": 8 },
+				{ "item": "coal", "amount": 4 },
+			]
+		},
+		"liquid": {
+			"liquid": "oil",
+			"amount": 0.05,
+		}
+	},
+}

@@ -1,0 +1,49 @@
+{
+	"name": "Alloy Crucible",
+	"type": "AttributeSmelter",
+	"description": "An advanced alloy smelter that requires cryofluid to operate",
+	"drawer": "DrawBlock",
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"itemCapacity": 40,
+	"liquidCapacity": 200,
+	"solid": true,
+	"health": -1, //automatically calculated
+	"size": 4,
+	"activeSound": "none",
+	"activeSoundVolume": 0.5,
+	"idleSound": "none",
+	"idleSoundVolume": 0.5,
+	"requirements": [
+		{ "item": "lead", "amount": 300 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "plastanium", "amount": 200 },
+		{ "item": "phase-fabric", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 150 },
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"outputItem": {"item": "surge-alloy", "amount": 3},
+	"craftTime": 100,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"updateEffectChance": 0.04,
+	"boostScale": 0.08,
+	"consumes": {
+		"power": 15,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 8 },
+				{ "item": "lead", "amount": 10 },
+				{ "item": "titanium", "amount": 5 },
+				{ "item": "silicon", "amount": 8 },
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.14,
+		}
+	},
+}

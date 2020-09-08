@@ -1,0 +1,42 @@
+{
+	"name": "Phase Spinner",
+	"type": "GenericCrafter",
+	"description": "An advanced phase weaver that uses silicon to help speed up the weaving process",
+	"drawer": "DrawWeave",
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"itemCapacity": 30,
+	"liquidCapacity": 0,
+	"solid": true,
+	"health": -1, //automatically calculated
+	"size": 3,
+	"activeSound": "none",
+	"activeSoundVolume": 0.5,
+	"idleSound": "none",
+	"idleSoundVolume": 0.5,
+	"requirements": [
+		{ "item": "lead", "amount": 200 },
+		{ "item": "silicon", "amount": 250 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "phase-fabric", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 75 },
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"outputItem": {"item": "phase-fabric", "amount": 2},
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
+	"updateEffectChance": 0.04,
+	"consumes": {
+		"power": 15,
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 6 },
+				{ "item": "sand", "amount": 15 },
+				{ "item": "silicon", "amount": 1 },
+			]
+		},
+	},
+}

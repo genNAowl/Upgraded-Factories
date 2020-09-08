@@ -1,7 +1,8 @@
 {
 	"name": "Plastanium Condenser",
 	"type": "GenericCrafter",
-	"description": "Condenses plastanium from titanium, organic compounds, and oil",
+	"description": "An advanced plastanium compressor uses organic compounds to help condense plastanium",
+	"drawer": "DrawGlow",
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,

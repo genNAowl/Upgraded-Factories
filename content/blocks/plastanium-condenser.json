@@ -1,7 +1,7 @@
 {
 	"name": "Plastanium Condenser",
 	"type": "GenericCrafter",
-	"description": "Condenses Plastanium from Titanium, Organic Compounds, and Oil",
+	"description": "Condenses plastanium from titanium, organic compounds, and oil",
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
@@ -20,12 +20,12 @@
 		{ "item": "silicon", "amount": 200 },
 		{ "item": "titanium", "amount": 150 },
 		{ "item": "plastanium", "amount": 100 },
-		{ "item": "surgealloy", "amount": 50 },
+		{ "item": "surge-alloy", "amount": 50 },
 	],
 	"category": "crafting",
 	"research": "plastanium-compressor",
 	"outputItem": {"item": "plastanium", "amount": 10},
-	"craftTime": 300,
+	"craftTime": 150,
 	"craftEffect": "formsmoke",
 	"updateEffect": "plasticburn",
 	"updateEffectChance": 0.04,
@@ -34,7 +34,7 @@
 		"items": {
 			"items": [
 				{ "item": "titanium", "amount": 15 },
-				{ "item": "spore-pod", "amount": 2 },
+				{ "item": "spore-pod", "amount": 1 },
 			]
 		},
 		"liquid": {

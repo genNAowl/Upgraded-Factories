@@ -1,0 +1,34 @@
+{
+	"name": "Nurturer",
+	"type": "Cultivator",
+	"description": "An advanced cultivator",
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"itemCapacity": 30,
+	"liquidCapacity": 100,
+	"solid": true,
+	"health": -1, //automatically calculated
+	"size": 3,
+	"activeSound": "none",
+	"activeSoundVolume": 0.5,
+	"idleSound": "none",
+	"idleSoundVolume": 0.5,
+	"requirements": [
+		{ "item": "lead", "amount": 150 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "titanium", "amount": 125 },
+		{ "item": "plastanium", "amount": 75 },
+	],
+	"category": "production",
+	"research": "cultivator",
+	"outputItem": {"item": "spore-pod", "amount": 10},
+	"craftTime": 240,
+	"consumes": {
+		"power": 8,
+		"liquid": {
+			"liquid": "water",
+			"amount": 1,
+		}
+	},
+}

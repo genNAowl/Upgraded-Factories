@@ -1,8 +1,8 @@
 {
-	"name": "Plastanium Condenser",
+	"name": "Coal Synthesizer",
 	"type": "GenericCrafter",
-	"description": "An advanced plastanium compressor uses organic compounds to help condense plastanium",
-	"drawer": "DrawGlow",
+	"description": "An advanced coal centrifuge that requires organic as well as oil to work",
+	"drawer": "DrawBlock",
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
@@ -18,29 +18,27 @@
 	"requirements": [
 		{ "item": "lead", "amount": 200 },
 		{ "item": "graphite", "amount": 150 },
-		{ "item": "silicon", "amount": 200 },
-		{ "item": "titanium", "amount": 150 },
-		{ "item": "plastanium", "amount": 100 },
-		{ "item": "surge-alloy", "amount": 50 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "plastanium", "amount": 75 },
+		{ "item": "phase-fabric", "amount": 50 },
 	],
 	"category": "crafting",
-	"research": "plastanium-compressor",
-	"outputItem": {"item": "plastanium", "amount": 10},
-	"craftTime": 150,
-	"craftEffect": "formsmoke",
-	"updateEffect": "plasticburn",
+	"research": "coal-centrifuge",
+	"outputItem": {"item": "coal", "amount": 10},
+	"craftTime": 60,
+	"craftEffect": "smeltsmoke",
+	"updateEffect": "none",
 	"updateEffectChance": 0.04,
 	"consumes": {
-		"power": 12,
+		"power": 2.5,
 		"items": {
 			"items": [
-				{ "item": "titanium", "amount": 15 },
 				{ "item": "spore-pod", "amount": 1 },
 			]
 		},
 		"liquid": {
 			"liquid": "oil",
-			"amount": 0.5,
+			"amount": 0.75,
 		}
 	},
 }

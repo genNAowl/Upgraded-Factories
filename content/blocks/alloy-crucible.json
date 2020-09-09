@@ -36,9 +36,10 @@
 		"items": {
 			"items": [
 				{ "item": "copper", "amount": 8 },
-				{ "item": "lead", "amount": 10 },
+				{ "item": "lead", "amount": 8 },
 				{ "item": "titanium", "amount": 5 },
-				{ "item": "silicon", "amount": 8 },
+				{ "item": "silicon", "amount": 7 },
+				{ "item": "pyratite", "amount": 1 },
 			]
 		},
 		"liquid": {

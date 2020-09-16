@@ -24,7 +24,7 @@
 	],
 	"category": "crafting",
 	"research": "phase-weaver",
-	"outputItem": {"item": "phase-fabric", "amount": 2},
+	"outputItem": {"item": "phase-fabric", "amount": 3},
 	"craftTime": 60,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",
@@ -34,8 +34,8 @@
 		"items": {
 			"items": [
 				{ "item": "thorium", "amount": 6 },
-				{ "item": "sand", "amount": 15 },
-				{ "item": "silicon", "amount": 1 },
+				{ "item": "sand", "amount": 10 },
+				{ "item": "silicon", "amount": 3 },
 			]
 		},
 	},

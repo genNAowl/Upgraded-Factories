@@ -23,7 +23,7 @@
 	],
 	"category": "crafting",
 	"research": "pyratite-mixer",
-	"outputItem": {"item": "pyratite", "amount": 5},
+	"outputItem": {"item": "pyratite", "amount": 6},
 	"craftTime": 80,
 	"craftEffect": "none",
 	"updateEffect": "none",

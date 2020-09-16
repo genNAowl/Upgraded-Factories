@@ -25,7 +25,7 @@
 	],
 	"category": "crafting",
 	"research": "plastanium-compressor",
-	"outputItem": {"item": "plastanium", "amount": 10},
+	"outputItem": {"item": "plastanium", "amount": 15},
 	"craftTime": 150,
 	"craftEffect": "formsmoke",
 	"updateEffect": "plasticburn",
@@ -34,8 +34,8 @@
 		"power": 12,
 		"items": {
 			"items": [
-				{ "item": "titanium", "amount": 15 },
-				{ "item": "spore-pod", "amount": 1 },
+				{ "item": "titanium", "amount": 20 },
+				{ "item": "spore-pod", "amount": 2 },
 			]
 		},
 		"liquid": {

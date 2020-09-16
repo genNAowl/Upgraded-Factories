@@ -25,7 +25,7 @@
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
-	"outputItem": {"item": "surge-alloy", "amount": 3},
+	"outputItem": {"item": "surge-alloy", "amount": 5},
 	"craftTime": 100,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",

@@ -23,7 +23,7 @@
 	],
 	"category": "crafting",
 	"research": "blast-mixer",
-	"outputItem": {"item": "blast-compound", "amount": 5},
+	"outputItem": {"item": "blast-compound", "amount": 6},
 	"craftTime": 80,
 	"craftEffect": "none",
 	"updateEffect": "none",
@@ -32,7 +32,7 @@
 		"power": 1,
 		"items": {
 			"items": [
-				{ "item": "pyratite", "amount": 5 },
+				{ "item": "pyratite", "amount": 6 },
 				{ "item": "spore-pod", "amount": 5 },
 			]
 		},

@@ -33,7 +33,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{ "item": "spore-pod", "amount": 5 },
+				{ "item": "spore-pod", "amount": 4 },
 			]
 		},
 	},

@@ -23,7 +23,7 @@
 	],
 	"category": "crafting",
 	"research": "melter",
-	"outputLiquid": {"liquid": "slag", "amount": 30},
+	"outputLiquid": {"liquid": "slag", "amount": 90},
 	"craftTime": 80,
 	"craftEffect": "none",
 	"updateEffect": "none",
@@ -32,7 +32,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{ "item": "scrap", "amount": 12 },
+				{ "item": "scrap", "amount": 26 },
 				{ "item": "pyratite", "amount": 1 },
 			]
 		},

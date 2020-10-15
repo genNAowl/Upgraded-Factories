@@ -1,4 +1,4 @@
-/* {
+{
 	"name": "Crusher",
 	"type": "GenericCrafter",
 	"description": "An advanced pulverizer that requires water to operate",
@@ -40,4 +40,4 @@
 			"amount": 0.05,
 		}
 	},
-} */
+}

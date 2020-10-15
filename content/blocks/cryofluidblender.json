@@ -22,7 +22,7 @@
 		{ "item": "plastanium", "amount": 50 },
 	],
 	"category": "crafting",
-	"research": "cryofluidmixer",
+	"research": "cryofluid-mixer",
 	"outputLiquid": {"liquid": "cryofluid", "amount": 1},
 	"craftTime": 80,
 	"craftEffect": "none",

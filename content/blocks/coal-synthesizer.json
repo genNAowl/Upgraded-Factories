@@ -30,7 +30,7 @@
 	"updateEffect": "none",
 	"updateEffectChance": 0.04,
 	"consumes": {
-		"power": 2.5,
+		"power": 1.5,
 		"items": {
 			"items": [
 				{ "item": "spore-pod", "amount": 1 },
@@ -38,7 +38,7 @@
 		},
 		"liquid": {
 			"liquid": "oil",
-			"amount": 0.75,
+			"amount": 0.5,
 		}
 	},
 }

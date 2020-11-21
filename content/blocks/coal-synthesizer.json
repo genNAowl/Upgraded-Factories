@@ -24,7 +24,7 @@
 	],
 	"category": "crafting",
 	"research": "coal-centrifuge",
-	"outputItem": {"item": "coal", "amount": 10},
+	"outputItem": {"item": "coal", "amount": 15},
 	"craftTime": 60,
 	"craftEffect": "smeltsmoke",
 	"updateEffect": "none",

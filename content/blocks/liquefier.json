@@ -6,7 +6,7 @@
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
-	"itemCapacity": 25,
+	"itemCapacity": 26,
 	"liquidCapacity": 20,
 	"solid": true,
 	"health": -1, //automatically calculated
@@ -23,7 +23,7 @@
 	],
 	"category": "crafting",
 	"research": "melter",
-	"outputLiquid": {"liquid": "slag", "amount": 90},
+	"outputLiquid": {"liquid": "slag", "amount": 156}, //regular ratio (scrap:slag) is 1:12, 26:90 is 1:3.46. 156 would be on the terms of the norm for 13 scrap
 	"craftTime": 80,
 	"craftEffect": "none",
 	"updateEffect": "none",
@@ -32,7 +32,7 @@
 		"power": 5,
 		"items": {
 			"items": [
-				{ "item": "scrap", "amount": 26 },
+				{ "item": "scrap", "amount": 13 },
 				{ "item": "pyratite", "amount": 1 },
 			]
 		},

@@ -1,7 +1,7 @@
 {
 	"name": "Cryofluid Blender",
 	"type": "LiquidConverter",
-	"description": "An advanced cryofluid mixer that uses an expierimental recipe requiring silicon as well as titanium",
+	"description": "An advanced cryofluid mixer that uses an expierimental recipe requiring silicon as well as titanium \n Sprite by: SnakkiZXZ",
 	"drawer": "DrawMixer",
 	"hasItems": true,
 	"hasLiquids": true,

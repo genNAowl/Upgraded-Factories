@@ -1,7 +1,7 @@
 {
 	"name": "Phase Spinner",
 	"type": "GenericCrafter",
-	"description": "An advanced phase weaver that uses silicon to help speed up the weaving process",
+	"description": "An advanced phase weaver that uses silicon to help speed up the weaving process \n Sprite by: SnakkiZXZ",
 	"drawer": "DrawWeave",
 	"hasItems": true,
 	"hasLiquids": false,

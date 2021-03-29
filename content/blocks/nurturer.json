@@ -15,7 +15,7 @@
 	"idleSound": "none",
 	"idleSoundVolume": 0.5,
 	"requirements": [
-		{ "item": "lead", "amount": 150 },
+		{ "item": "metaglass", "amount": 150 },
 		{ "item": "silicon", "amount": 150 },
 		{ "item": "titanium", "amount": 125 },
 		{ "item": "plastanium", "amount": 75 },

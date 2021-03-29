@@ -1,4 +1,4 @@
-/* {
+{
 	"name": "Water Extorter",
 	"type": "SolidPump",
 	"description": "An advanced water extractor",
@@ -23,10 +23,10 @@
 	"category": "production",
 	"research": "water-extractor",
 	"result": "water",
-	"pumpAmount": 0.5,
+	"pumpAmount": 0.4,
 	"rotateSpeed": 1.4,
     "attribute": "water",
 	"consumes": {
 		"power": 4,
 	},
-} */
+}

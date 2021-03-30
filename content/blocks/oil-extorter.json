@@ -1,4 +1,4 @@
-/* {
+{
 	"name": "Oil Extorter",
 	"type": "Fracker",
 	"description": "An advanced oil extractor",
@@ -41,7 +41,7 @@
 		},
 		"liquid": {
 			"liquid": "water",
-			"amount": 0.5,
+			"amount": 0.4,
 		}
 	},
-} */
+}

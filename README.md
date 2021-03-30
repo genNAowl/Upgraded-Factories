@@ -2,7 +2,7 @@
 
 A 6.0 mod that adds upgraded versions of existing factories
 
-*Last updated 2/4/2020*
+*Last updated 3/30/2020*
 
 # TODO
 - [ ] Resprite Crushers, Water/Oil Extorters

@@ -1,4 +1,5 @@
 ![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/logo.png)
+![banner](https://github.com/genNAowl/Upgraded-Factories/blob/master/banner.png)
 
 A 6.0 mod that adds upgraded versions of existing factories
 

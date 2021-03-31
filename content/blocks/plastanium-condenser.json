@@ -6,7 +6,7 @@
 	"hasItems": true,
 	"hasLiquids": true,
 	"hasPower": true,
-	"itemCapacity": 30,
+	"itemCapacity": 40,
 	"liquidCapacity": 150,
 	"solid": true,
 	"health": -1, //automatically calculated

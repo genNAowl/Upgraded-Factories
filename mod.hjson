@@ -2,5 +2,5 @@ name: "upgraded-factories"
 displayName: "Upgraded Factories" //what displays in the mod selection menu
 author: "genNAowl"
 description: "A mod that adds upgraded versions of existing factories"
-version: "1.4.1"
+version: "1.4.2"
 minGameVersion: "105"

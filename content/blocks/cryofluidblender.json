@@ -11,10 +11,6 @@
 	"solid": true,
 	"health": -1, //automatically calculated
 	"size": 3,
-	"activeSound": "none",
-	"activeSoundVolume": 0.5,
-	"idleSound": "none",
-	"idleSoundVolume": 0.5,
 	"requirements": [
 		{ "item": "lead", "amount": 150 },
 		{ "item": "silicon", "amount": 100 },

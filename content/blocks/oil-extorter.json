@@ -10,10 +10,6 @@
 	"solid": true,
 	"health": -1, //automatically calculated
 	"size": 4,
-	"activeSound": "none",
-	"activeSoundVolume": 0.5,
-	"idleSound": "none",
-	"idleSoundVolume": 0.5,
 	"requirements": [
 		{ "item": "copper", "amount": 300 },
 		{ "item": "graphite", "amount": 350 },

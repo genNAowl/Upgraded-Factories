@@ -1,10 +1,8 @@
-# **Development is paused untill I port this to java**
-
-![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/logo.png)
+![logo](https://github.com/genNAowl/Upgraded-Factories-Java/blob/master/assets/logo.png)
 
 A 6.0 mod that adds upgraded versions of existing factories
 
-# TODO
-- [ ] Resprite Crushers, Water/Oil Extorters
-- [ ] Balancing?
-- [ ] New Blocks?
+# To Resprite: 
+- [ ] Crushers
+- [ ] Coal Synthesizers
+- [ ] Cryofluid Blenders

@@ -46,6 +46,19 @@ An advanced pulverizer. Requires water as a coolant to help crush scrap.
 ![demo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/demos/coal-synthesizer.gif)
 
 An advanced coal centrifuge. Replaces the centrifuge with a synthesizer, which requires organics as a base. 
+### Water Extorter
+![demo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/demos/water-extorter.gif)
+
+An advanced water extractor. Uses more power and space to extract more water. 
+### Nurturer
+![demo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/demos/nurturer.gif)
+
+An advanced cultivator. Larger, but more efficient than it's predecessor. 
+### Oil Extorter
+![demo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/demos/oil-extorter.gif)
+
+An advanced oil extractor. Uses more power, sand, and space to frack more oil.
+
 
 
 ***

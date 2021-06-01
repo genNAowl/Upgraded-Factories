@@ -1,6 +1,12 @@
 ![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/logo.png)
 ### <p align="center">A 6.0 mod that adds tier 2 versions of existing factories</p>
 
+***
+![screenshot1](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot1.png)
+![screenshot2](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot2.png)
+![screenshot3](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot3.png)
+![screenshot4](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot4.png)
+
 # Content: 
 ### Furnace
 ![demo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/demos/furnace.gif)
@@ -58,14 +64,6 @@ An advanced cultivator. Larger, but more efficient than it's predecessor.
 ![demo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/demos/oil-extorter.gif)
 
 An advanced oil extractor. Uses more power, sand, and space to frack more oil.
-
-
-
-***
-![screenshot1](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot1.png)
-![screenshot2](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot2.png)
-![screenshot3](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot3.png)
-![screenshot4](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot4.png)
 
 
 # Todo: 

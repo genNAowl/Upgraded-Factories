@@ -3,7 +3,7 @@
   "displayName": "Upgraded Factories",
   "author": "genNAowl",
   "description": "Adds upgraded versions of existing factories.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "upgraded.UpgradedFactories",
   "minGameVersion": "105",
   "dependencies": [],

@@ -1,6 +1,10 @@
 ![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/logo.png)
+***
 
-### A 6.0 mod that adds upgraded versions of existing factories
+A 6.0 mod that adds upgraded versions of existing factories
+
+# Content: 
+
 
 ***
 ![screenshot1](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot1.png)
@@ -9,7 +13,8 @@
 ![screenshot4](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/screenshots/screenshot4.png)
 
 
-# To Resprite: 
-- [ ] Crushers
-- [ ] Coal Synthesizers
-- [ ] Cryofluid Blenders
+# Todo: 
+- [ ] Resprite Crushers
+- [ ] Resprite Coal Synthesizers
+- [ ] Resprite Cryofluid Blenders
+- [ ] 2x2 incinerator

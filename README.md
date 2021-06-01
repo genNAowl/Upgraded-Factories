@@ -1,9 +1,29 @@
 ![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/logo.png)
-***
+### <p align="center">A 6.0 mod that adds tier 2 versions of existing factories</p>
 
-A 6.0 mod that adds upgraded versions of existing factories
-
-# Content: 
+<!-- # Content: 
+### Furnace
+An advanced kiln. Requires pyratite to craft metaglass. Uses heat tiles as an optional booster. 
+### Plastanium Condenser
+An advanced plastanium compressor. Uses organics to help condense plastanium. Uses oil tiles as an optional booster. 
+### Phase Spinner
+An advanced phase weaver. Uses silicon to help weave phase fabric. 
+### Alloy Crucible
+An advanced alloy smelter. Requires both pyratite and cryofluid to forge surge alloy. Uses heat tiles as an optional booster. 
+### Pyratite Blender
+An advanced pyratite mixer. Requires oil to help create pyratite. 
+### Blast Blender
+An advanced blast mixer. Requires oil to help create blast compound. 
+### Cryofluid Blender
+An advanced cryofluid mixer. Now requires silicon as well as titanium. Due to the heavy spinners, this factory has a long warmup time. 
+### Liquefier
+An advanced melter. Requires pyratite to generate the heat required to melt tons of scrap. 
+### Spore Compactor
+An advanced spore press. Due to the enormous pressure used when crushing organics, coal is formed as a side product. 
+### Crusher
+An advanced pulverizer. Requires water as a coolant to help crush scrap. 
+### Coal Synthesizer
+An advanced coal centrifuge. Replaces the centrifuge with a synthesizer, which requires organics as a base.  -->
 
 
 ***

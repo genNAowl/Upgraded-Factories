@@ -18,9 +18,7 @@ import static mindustry.type.ItemStack.*;
 
 public class UpgradedBlocks implements ContentList{
 	public static Block 
-    furnace, plastaniumCondenser, phaseSpinner, alloyCrucible, pyratiteBlender, blastBlender, cryofluidBlender, 
-    liquefier, sporeCompactor, crusher, coalSynthesizer, 
-    waterExtorter, nurturer, oilExtorter;
+    furnace, sporeCompactor, crusher, coalSynthesizer, waterExtorter, nurturer, oilExtorter;
 
 	@Override
     public void load(){
@@ -37,109 +35,6 @@ public class UpgradedBlocks implements ContentList{
 
             consumes.items(with(sand, 3, lead, 3, pyratite, 1));
             consumes.power(5f);
-        }};
-        plastaniumCondenser = new AttributeCrafter("plastanium-condenser"){{
-            requirements(Category.crafting, with(lead, 200, graphite, 150, silicon, 200, titanium, 150, plastanium, 100, surgeAlloy, 50));
-            TechNode node = new TechNode(TechTree.get(Blocks.plastaniumCompressor), this, researchRequirements());
-            outputItem = new ItemStack(plastanium, 15);
-            craftTime = 150f;
-            size = 3;
-            itemCapacity = 50;
-            liquidCapacity = 150f;
-            boostScale = 0.1f;
-            drawer = new DrawGlow();
-            ((DrawGlow)drawer).glowAmount = 1.5f;
-            attribute = Attribute.oil;
-            craftEffect = Fx.formsmoke;
-            updateEffect = Fx.plasticburn;
-
-            consumes.items(with(titanium, 20, sporePod, 2));
-            consumes.liquid(oil, 0.5f);
-            consumes.power(12f);
-        }};
-        phaseSpinner = new GenericCrafter("phase-spinner"){{
-            requirements(Category.crafting, with(lead, 200, silicon, 250, thorium, 300, phaseFabric, 150, surgeAlloy, 75));
-            TechNode node = new TechNode(TechTree.get(Blocks.phaseWeaver), this, researchRequirements());
-            outputItem = new ItemStack(phaseFabric, 3);
-            craftTime = 60f;
-            size = 3;
-            itemCapacity = 30;
-            drawer = new DrawWeave();
-            craftEffect = Fx.smeltsmoke;
-
-            consumes.items(with(thorium, 6, sand, 10, silicon, 3));
-            consumes.power(15f);
-        }};
-    	alloyCrucible = new AttributeCrafter("alloy-crucible"){{
-            requirements(Category.crafting, with(lead, 300, silicon, 250, thorium, 300, plastanium, 200, phaseFabric, 150, surgeAlloy, 150));
-            TechNode node = new TechNode(TechTree.get(Blocks.surgeSmelter), this, researchRequirements());
-            outputItem = new ItemStack(surgeAlloy, 5);
-            craftTime = 100f;
-            size = 4;
-            itemCapacity = 40;
-            boostScale = 0.1f;
-            drawer = new DrawCrucible();
-            craftEffect = Fx.smeltsmoke;
-
-            consumes.items(with(copper, 8, lead, 8, titanium, 5, silicon, 7, pyratite, 1));
-            consumes.liquid(cryofluid, 0.14f);
-            consumes.power(15f);
-        }};
-        pyratiteBlender = new GenericCrafter("pyratite-blender"){{
-            requirements(Category.crafting, with(lead, 150, graphite, 75, metaglass, 80, titanium, 75));
-            TechNode node = new TechNode(TechTree.get(Blocks.pyratiteMixer), this, researchRequirements());
-            outputItem = new ItemStack(pyratite, 6);
-            craftTime = 80f;
-            size = 3;
-            itemCapacity = 30;
-            drawer = new DrawSpinner();
-            ((DrawSpinner)drawer).spinSpeed = 1.5f;
-
-            consumes.power(1f);
-            consumes.liquid(oil, 0.05f);
-            consumes.items(with(lead, 8, sand, 8, coal, 4));
-        }};
-        blastBlender = new GenericCrafter("blast-blender"){{
-            requirements(Category.crafting, with(lead, 150, titanium, 120, metaglass, 80, plastanium, 40));
-            TechNode node = new TechNode(TechTree.get(Blocks.blastMixer), this, researchRequirements());
-            outputItem = new ItemStack(blastCompound, 6);
-            craftTime = 80f;
-            size = 3;
-            itemCapacity = 30;
-            drawer = new DrawSpinner();
-            ((DrawSpinner)drawer).spinSpeed = 1f;
-
-            consumes.items(with(pyratite, 6, sporePod, 5));
-            consumes.liquid(oil, 0.05f);
-            consumes.power(1f);
-        }};
-        cryofluidBlender = new InertiaConverter("cryofluid-blender"){{
-            requirements(Category.crafting, with(lead, 150, silicon, 100, titanium, 200, plastanium, 50));
-            TechNode node = new TechNode(TechTree.get(Blocks.cryofluidMixer), this, researchRequirements());
-            outputLiquid = new LiquidStack(cryofluid, 1f);
-            craftTime = 90;
-            size = 3;
-            itemCapacity = 30;
-            liquidCapacity = 150;
-            drawer = new DrawLiquidSpinner();
-            ((DrawLiquidSpinner)drawer).spinSpeed = 5f;
-
-            consumes.power(1.5f);
-            consumes.liquid(water, 1f);
-            consumes.items(with(titanium, 2, silicon, 1));
-        }};
-        liquefier = new GenericCrafter("liquefier"){{
-            requirements(Category.crafting, with(lead, 80, silicon, 50, graphite, 100, plastanium, 20));
-            TechNode node = new TechNode(TechTree.get(Blocks.melter), this, researchRequirements());
-            outputLiquid = new LiquidStack(slag, 70);
-            craftTime = 60;
-            size = 2;
-            itemCapacity = 50;
-            liquidCapacity = 20;
-            hasLiquids = true;
-
-            consumes.power(5);
-            consumes.items(with(scrap, 20, pyratite, 1));
         }};
         sporeCompactor = new GenericCrafter("spore-compactor"){{
             requirements(Category.crafting, with(lead, 100, silicon, 150, metaglass, 80, plastanium, 40));

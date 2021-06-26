@@ -1,4 +1,4 @@
-![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/demos/logo.png)
+![logo](https://github.com/genNAowl/Upgraded-Factories/blob/master/assets/logo.png)
 ### <p align="center">A 6.0 mod that adds tier 2 versions of existing factories</p>
 
 ***
